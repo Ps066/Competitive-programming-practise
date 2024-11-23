@@ -1,2 +1,1 @@
-[nix]
-channel = "stable-24_05"
+run = "g++ -std=c++17 ${REPL_FILE} -o main && ./main"
