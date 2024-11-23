@@ -1,1 +1,0 @@
-run = "g++ -std=c++17 ${REPL_FILE} -o main && ./main"
