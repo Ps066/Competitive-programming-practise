@@ -4,7 +4,7 @@
 // example:- 
 //   A B C
 //   B C D
-//   C D F
+//   C D E
 //   3 rows and 3 columns
 // The goal is to make it for n columns 
 
