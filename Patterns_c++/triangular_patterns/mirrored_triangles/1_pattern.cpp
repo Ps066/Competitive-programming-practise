@@ -1,4 +1,4 @@
-// Program to print simple triangualr pattern. that is mirrored
+// Program to print simple triangualr pattern. that is mirrored (horizontlly)
 // example:- 
 //       * 
 //     * * 
