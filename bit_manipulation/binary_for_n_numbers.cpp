@@ -12,8 +12,10 @@ void find_bin(int n){
 int main()
 {
     for(int i=0;i<=10;i++){
-        cout << "Binary for" << i << "is:- ";
+        cout << "Binary for " << i << " is:- ";
         find_bin(i);
         cout << endl;
     }
 }
+
+
