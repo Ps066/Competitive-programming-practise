@@ -4,3 +4,6 @@
 
 # Ignore all the generated c++ files
 *.exe
+
+
+#rest things to ignore 
