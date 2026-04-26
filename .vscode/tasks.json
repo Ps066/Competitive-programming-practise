@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run C++ (root input/output)",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-std=c++17",
+        "-o",
+        "${workspaceFolder}/program",
+        "${file}",
+        "&&",
+        "${workspaceFolder}/program",
+        "<",
+        "${workspaceFolder}/input.txt",
+        ">",
+        "${workspaceFolder}/output.txt"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
