@@ -1,0 +1,6 @@
+{
+  "name": "C++ Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/cpp:1-ubuntu-22.04",
+  "features": {},
+  "postCreateCommand": "g++ --version"
+}

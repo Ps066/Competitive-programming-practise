@@ -1,9 +1,14 @@
-# Ignore all .txt files
-*.in
-
-
-# Ignore all the generated c++ files
+# Compiled binaries
+program
+*.out
 *.exe
 
+# Object files
+*.o
+*.obj
 
-#rest things to ignore 
+# VS Code generated
+.vscode/*.log
+
+# Mac/Linux junk
+.DS_Store

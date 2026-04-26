@@ -4,18 +4,10 @@
     {
       "label": "Run C++ (root input/output)",
       "type": "shell",
-      "command": "g++",
+      "command": "bash",
       "args": [
-        "-std=c++17",
-        "-o",
-        "${workspaceFolder}/program",
-        "${file}",
-        "&&",
-        "${workspaceFolder}/program",
-        "<",
-        "${workspaceFolder}/input.txt",
-        ">",
-        "${workspaceFolder}/output.txt"
+        "-c",
+        "g++ -std=c++17 \"${file}\" -o \"${workspaceFolder}/program\" && \"${workspaceFolder}/program\" < \"${workspaceFolder}/input.txt\" > \"${workspaceFolder}/output.txt\""
       ],
       "group": {
         "kind": "build",
