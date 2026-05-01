@@ -13,7 +13,23 @@
         "kind": "build",
         "isDefault": true
       },
-      "problemMatcher": ["$gcc"]
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "build debug",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "-O0",
+        "-std=c++17",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}"
+      ],
+      "group": "build"
     }
   ]
 }
