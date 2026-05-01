@@ -20,7 +20,8 @@ int main() {
     }
 
     // create a hash to preprocess 
-    int hash[j+1] = {0}; // this creats an array named "hash" with j+1 elements where each element is 0
+    int max_element_of_hash = j+1;
+    int hash[max_element_of_hash] = {0}; // this creats an array named "hash" with j+1 elements where each element is 0
 
     // single loop to map everything in the hash 
     for(int k=0; k<j; k++){
